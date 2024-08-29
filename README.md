@@ -4,7 +4,9 @@ Infero é uma ferramenta de inferência lógica que aceita uma linguagem persona
 
 ## Instalação
 
-Certifique-se de que tem o [Poetry](https://python-poetry.org/docs/) instalado. Em seguida, rode `poetry install` e `poetry shell`
+- Certifique-se de que tem o [Poetry](https://python-poetry.org/docs/) instalado
+- Clone o repositório: `git clone https://github.com/ThiagoORuby/infero.git`
+- Rode os comandos do poetry: `poetry install` e `poetry shell`
 
 ## Como Usar ?
 
@@ -60,3 +62,10 @@ python -m infero compile examples/example.ifo
 <fact> ::= "(" <expr> ")" | "~" <fact> | <symbol>
 <symbol> ::= "a" | "b" | ... | "z" | "A" | ... | "Z"
 ```
+
+## TODO
+
+- [ ] Implementar Exceptions personalizadas
+- [ ] Adicionar commandos `tokenize` e `ast` ao CLI
+- [ ] Melhorar interface de resposta
+- [ ] Realizar testes automatizados
