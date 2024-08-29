@@ -4,6 +4,8 @@ Infero é uma ferramenta de inferência lógica que aceita uma linguagem persona
 
 ## Instalação
 
+Certifique-se de que tem o [Poetry](https://python-poetry.org/docs/) instalado. Em seguida, rode `poetry install` e `poetry shell`
+
 ## Como Usar ?
 
 ### Compilação
