@@ -1,0 +1,18 @@
+rules:
+A & B -> C
+A -> D
+C & D -> E
+B & E & F -> G
+A & E -> H
+D & E & H -> I
+end
+
+facts:
+A
+B
+F
+end
+
+query:
+H
+end

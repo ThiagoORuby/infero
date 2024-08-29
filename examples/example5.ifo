@@ -1,0 +1,16 @@
+rules:
+q | r
+s -> t
+q -> u
+~s -> ~r
+r -> v
+end
+
+facts:
+p
+~t
+end
+
+query:
+u
+end

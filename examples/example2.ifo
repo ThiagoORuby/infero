@@ -1,0 +1,15 @@
+rules:
+(c & m) -> b
+t -> c
+i -> c
+(c & f) -> g
+end
+
+facts:
+f
+t
+end
+
+query:
+g
+end

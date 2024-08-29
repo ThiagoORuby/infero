@@ -1,0 +1,17 @@
+rules:
+a -> b
+b -> c
+c -> d
+e -> ~c
+f -> e
+g -> f
+end
+
+facts:
+~d
+end
+
+query:
+~a
+end
+

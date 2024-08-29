@@ -1,0 +1,13 @@
+rules:
+  t -> s
+  u -> ~s
+  u | w
+end
+
+facts:
+  ~w
+end
+
+query:
+  t
+end

@@ -1,0 +1,14 @@
+rules:
+P -> (Q & R)
+(Q & R) -> S
+S -> (T | ( ~T -> U))
+end
+
+facts:
+P
+~T
+end
+
+query:
+U
+end

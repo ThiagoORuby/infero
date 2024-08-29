@@ -1,0 +1,13 @@
+rules:
+j | b
+c | ~j
+~b | d
+end
+
+facts:
+~d
+end
+
+query:
+c & j
+end
