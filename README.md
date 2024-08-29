@@ -6,6 +6,42 @@ Infero é uma ferramenta de inferência lógica que aceita uma linguagem persona
 
 ## Como Usar ?
 
+### Compilação
+
+```bash
+python -m infero compile examples/example.ifo
+```
+
+```
+ ==+==+==+== SOLUTION ==+==+==+==
+
+ Disjunctive Syllogism
+ u | w
+ ~w
+ ------
+ u
+
+ Modus Ponens
+ u -> (~s)
+ u
+ ------
+ ~s
+
+ Modus Tollens
+ t -> s
+ ~s
+ ------
+ ~t
+
+ Then ~t
+
+ ┏━━━━━━━┳━━━━━━━┳━━━━━━┳━━━━━━━┓
+ ┃ t     ┃ s     ┃ u    ┃ w     ┃
+ ┡━━━━━━━╇━━━━━━━╇━━━━━━╇━━━━━━━┩
+ │ False │ False │ True │ False │
+ └───────┴───────┴──────┴───────┘
+```
+
 ## BNF da linguagem
 
 ```
